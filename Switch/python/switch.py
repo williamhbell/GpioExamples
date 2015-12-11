@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
 import time
-import sys
 
 # A function to pass to the GPIO interupt
 def callback_up(channel):
