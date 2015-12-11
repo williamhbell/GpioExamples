@@ -12,7 +12,7 @@ def callback_down(channel):
   print('Down detected on channel %s'%channel)
 
 # A variable to store the GPIO associated with the switch
-inputPin = 23
+inputPin = 10
 
 # Set the numbering scheme to use the BCM scheme
 GPIO.setmode(GPIO.BCM)
