@@ -14,7 +14,15 @@ switch
 
 Type
 
-sudo ./switch.py
+./switch.py
 
 to run the example.  The program uses an interrup to check if the switch is closed.  This 
 means the CPU is idle until the switch has been closed.
+
+Running as root
+---------------
+
+In previous versions of Raspbian Linux, it was necessary to prefix these
+commands with sudo to run them as root.  However, this is no
+longer nessary in the latest version of Raspbian Jessie.
+

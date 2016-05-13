@@ -19,7 +19,7 @@ simplePIR
 
 Type
 
-sudo ./simplePIR.py
+./simplePIR.py
 
 to run the program.  This program checks to see if the PIR is sending a 
 high signal, but does not check if the PIR has settled in between or 
@@ -31,7 +31,7 @@ highAndLowPIR
 
 Type
 
-sudo ./highAndLowPIR.py
+./highAndLowPIR.py
 
 to run the example.  The program uses a tight loop to check if the PIR 
 has settled or has triggered.  The current and previous state is used 
@@ -42,7 +42,7 @@ Interrupts
 
 Type
 
-sudo ./interrupts.py
+./interrupts.py
 
 to run the example.  The program uses an interrup to check if the PIR signal
 goes high.  This means the CPU is idle until the PIR signal goes high.
@@ -51,3 +51,10 @@ Extensions
 ----------
 
   * Try combining the PIR status with one or more LEDs.
+
+Running as root
+---------------
+
+In previous versions of Raspbian Linux, it was necessary to prefix these 
+commands with sudo to run them as root.  However, this is no 
+longer nessary in the latest version of Raspbian Jessie.

@@ -15,11 +15,10 @@ GPIO pin.
 Running the program
 -------------------
 
-Accessing the GPIO logic, rather than one of the buses on the GPIO 
-connector, requires superuser access.  To run the program, type:
+To run the program, type:
 
 cd python
-sudo ./LED.py
+./LED.py
 
 The sudo command is used to cause the process to run as the root user.
 
@@ -55,3 +54,11 @@ Possible extensions
 
  * Try coupling this example with the PIR example, to turn on or off 
    LEDs when someone passes by.
+
+Running as root
+---------------
+
+In previous versions of Raspbian Linux, it was necessary to prefix these
+commands with sudo to run them as root.  However, this is no
+longer nessary in the latest version of Raspbian Jessie.
+
